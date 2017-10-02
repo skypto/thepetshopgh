@@ -1,0 +1,50 @@
+/* */
+/*The body has a background and the size is specified to cover the whole screen and positioned in the center.*/
+body {
+	background: url(http://aboutislam.net/wp-content/uploads/2017/06/banner_2_12b6465bb29099b8ad42899ea8629ce3_g.jpg?x72838);
+	/*background: url(http://www.petstopwatford.com/web/images/main-banner.jpg);*/
+	background-size: cover;
+	/*background-size: initial;*/
+	background-position: center;
+	font-family: lato;
+}
+
+/*This is to fix the issue with background image in body being tiled */
+html {
+	height: 100%; 
+}
+
+/*This is to position the div containing the button in the center of the screen */
+#content{
+	text-align: center;
+	padding-top: 25%;
+}
+
+/*For providing color effect to the content */
+h1, h3 {
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+/*The google imported font is modified to pick the fontweight which was imported and then resized to a relative size of 5em*/
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+/* This is to modify the line and give some shadow*/
+hr {
+	width: 460px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+/*This class is defined to space out the thumb nails for the services */
+.pad {
+	margin-top: 10px;
+}
+
+/*This is used to push the h2 text in the thumbnails to the middle */
+h2 {
+	text-align: center;
+}
