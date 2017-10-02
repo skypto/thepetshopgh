@@ -44,6 +44,10 @@ hr {
 	margin-top: 10px;
 }
 
+.pad p{
+	font-size: 20px;
+}
+
 /*This is used to push the h2 text in the thumbnails to the middle */
 h2 {
 	text-align: center;
